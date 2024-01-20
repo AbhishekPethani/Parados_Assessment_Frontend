@@ -5,7 +5,7 @@ const App = () => {
     <div>
       <h1> Parados Assessment </h1>
       <Assessment />
-    </div>
+    </div>  
   );
 }
 
