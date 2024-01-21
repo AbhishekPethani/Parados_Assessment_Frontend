@@ -40,7 +40,8 @@ const Assessment = () => {
         if (!key.trim() || !value.trim()) {
             setResult("Key or Value is missing")
         }else{
-            axios.post(baseURL + '/createTextRecord', {key, value})
+            const data = {key : value };
+            axios.post(baseURL + '/createTextRecord', data)
             .then((res) => {
                 setResult(res.data.result)
             })
