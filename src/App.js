@@ -1,4 +1,4 @@
-import Assessment from "./components/Assessment";
+import {Assessment} from "./components/Assessment";
 
 const App = () => {
   return (
