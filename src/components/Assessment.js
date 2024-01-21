@@ -4,7 +4,7 @@ import axios from "axios";
 import "./styles.css";
 
 // URL of server where API is deployed 
-const baseURL = 'http://ec2-3-82-22-147.compute-1.amazonaws.com:3000';
+const baseURL = 'https://ec2-3-82-22-147.compute-1.amazonaws.com:3000';
 
 const Assessment = () => {
 
