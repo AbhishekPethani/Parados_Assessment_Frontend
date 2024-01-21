@@ -25,7 +25,7 @@ export const CreateTextRecord = ({changeResult, baseURL}) => {
     }
 
     return (
-        <div>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
             <label>Collection:
                 <input type="text" value={collection} onChange={(e) => setCollection(e.target.value)} />
             </label>
